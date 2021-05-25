@@ -7,27 +7,56 @@
 }
 .Fond {
     text-align: center;
-    background-color: magenta ;
+    background-color: magenta;
     font-weight: normal;
     font-size: 100px;
 }
+
 
 .Bgblack {
     background-color: pink;
     padding-top: 20px;
 }
-.boutonPlacer {
-    text-align: center;
+
+.liste{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 140px;
     background-color: magenta;
     border: none;
-    color: beige;
-    padding: 10px;
-    margin-left: 820px;
+    color: #000000;
+    padding: 15px 32px;
+    text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    transition: all 0.5s;
+}
 
+#BoutonPlacer{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 810px;
+    background-color: magenta;
+    border: none;
+    color: #000000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#BoutonInitialiser{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 1400px;
+    background-color: magenta;
+    border: none;
+    color: #000000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 .boutonPlacer span{
@@ -47,15 +76,162 @@
 .boutonPlacer:hover span{
     padding-right: 25px;
 }
+
+
 .boutonPlacer:hover span:after{
     opacity: 1;
     right: 0;
 }
 
-.boutonPlacer:active{
+.boutonPlacer:active {
     background-color: magenta;
     box-shadow: 0 5px #666;
-transform: translateY(10px);
+    transform: translateY(10px);
+}
+
+
+.smiley1 {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    filter: drop-shadow(8px 8px 10px magenta);
+}
+
+
+.smiley1:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+
+.smiley2{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    filter: drop-shadow(8px 8px 10px magenta);
+}
+
+.smiley2:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.smiley3{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    filter: drop-shadow(8px 8px 10px magenta);
+}
+
+.smiley3:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.smiley4{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    filter: drop-shadow(8px 8px 10px magenta);
+}
+
+.smiley4:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.smiley5{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    filter: drop-shadow(8px 8px 10px magenta);
+}
+
+.smiley5:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.smiley6{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    filter: drop-shadow(8px 8px 10px magenta);
+}
+
+.smiley6:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.smiley6{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    filter: drop-shadow(8px 8px 10px magenta);
+}
+
+.smiley6:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.smiley7{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    filter: drop-shadow(8px 8px 10px magenta);
+}
+
+.smiley7:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.smiley8{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    filter: drop-shadow(8px 8px 10px magenta);
+}
+
+.smiley8:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.smiley9{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    filter: drop-shadow(8px 8px 10px magenta);
+}
+
+.smiley9:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.smiley10{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    filter: drop-shadow(8px 8px 10px magenta);
+}
+
+.smiley10:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
